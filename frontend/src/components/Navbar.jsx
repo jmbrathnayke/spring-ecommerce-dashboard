@@ -171,7 +171,7 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
                   <i className="bi bi-sun-fill"></i>
                 )}
               </button>
-              <div className="d-flex align-items-center cart">
+              <div className="d-flex align-items-center cart gap-4">
                 <a href="/cart" className="nav-link text-dark">
                   <i
                     className="bi bi-cart me-2"

@@ -29,6 +29,7 @@ public class ProductController {
     public ResponseEntity <Product> getProductById(@PathVariable int id) {
         Product product = service.getProductById(id);
 
+        //get productById logic
         if(product != null)
         return new ResponseEntity<>(product, HttpStatus.OK);
         else
